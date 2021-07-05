@@ -1,0 +1,38 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+section{
+    padding: 40px;
+}
+.food_one{
+    display: flex;
+}
+span{
+    font-size: 32px;
+    font-weight: bold;
+    color: indianred;
+}
+
+.food_one p{
+    width: 50%;   
+    padding-bottom:60px;
+    padding-top: 20px;
+    color:rgba(0, 0, 0, 0.445)
+}
+.food_one a{
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 20px 40px;
+    background-image: linear-gradient(rgb(136, 65, 65),crimson);
+    font-weight: bold;
+    color: white;
+}
+
+.food_one img{
+    width: auto;
+    background-image:url(bg_pic1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
