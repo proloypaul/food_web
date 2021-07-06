@@ -14,10 +14,15 @@ section{
 }
 span{
     font-size: 32px;
-    font-weight: bold;
-    color: indianred;
+    font-weight: bolder;
+    color:rgb(136, 65, 65);
 }
 
+.food_one h1{
+    font-size: 32px;
+    font-weight:bold;
+    color:rgba(0, 0, 0, 0.700);
+}
 .food_one p{
     width: 50%;   
     padding-bottom:60px;
@@ -76,6 +81,22 @@ span{
 }
 .box img{
     border-radius: 20px;
+}
+.food_four{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(bg_pic2.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    color: white;
+    height: 500px;
+    padding: 50px;
+    
+}
+.food_four #prgph{
+    margin-top: 100px;
+    padding-left: 40px;
+    font-weight: bold;
+    color: orange;
 }
 
 footer{
